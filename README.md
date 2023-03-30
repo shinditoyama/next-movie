@@ -1,6 +1,8 @@
-# React Movie App
+# Next Movie
 
 ![screenshot](https://raw.githubusercontent.com/shinditoyama/next-movie/main/public/assets/movie.gif)
+
+**live demo: [https://next-movie-wheat.vercel.app/](https://next-movie-wheat.vercel.app/)**
 
 ## Descrição
 
