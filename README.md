@@ -30,7 +30,7 @@ Clone o repositório e entre na pasta do projeto.
 
 ```
 $ git clone https://github.com/shinditoyama/next-movie.git
-$ cd next-todo
+$ cd next-movie
 ```
 
 Instale as dependências.
