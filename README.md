@@ -2,17 +2,19 @@
 
 ![screenshot](https://raw.githubusercontent.com/shinditoyama/next-movie/main/public/assets/movie.gif)
 
-**live demo: [https://next-movie-wheat.vercel.app/](https://next-movie-wheat.vercel.app/)**
-
 ## Descrição
 
-Aplicação que utiliza o Next para a consulta de listas de filmes por meio da API The Movie Database (TMDB).
+Aplicação Movie App construído com Next.js e Tailwind CSS. Esta aplicação permite ao usuário pesquisar e filtrar filmes e seriados por meio da chamada API da The Movie Database (TMDB).
+
+Se você deseja experimentar o sistema, confira a demonstração anexado no link abaixo:
+
+**live demo: [https://next-movie-wheat.vercel.app/](https://next-movie-wheat.vercel.app/)**
 
 ## Features
 
-- [x] Consultar Filmes, Séries e Artistas
+- [x] Pesquisar filmes, seriados e artistas
 - [x] Filtrar a listagem através do nome ou gênero
-- [x] Marcar e desmarcar a opção de DarkMode
+- [x] Ver a descrição do filme, seriado ou artista selecionado
 
 ## Tecnologias
 
@@ -20,6 +22,7 @@ Aplicação que utiliza o Next para a consulta de listas de filmes por meio da A
 - [Next](https://nextjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
+- [TanStack Query](https://tanstack.com/query/latest)
 - [Jotai](https://jotai.org/)
 
 ## Instalação
@@ -37,6 +40,12 @@ Instale as dependências.
 
 ```bash
 $ npm install # or yarn
+```
+
+Defina a variável de ambiente da chave de API (.env). Obtenha uma chave acessando o site da [The Movie Database](https://www.themoviedb.org/)
+
+```bash
+$ NEXT_PUBLIC_API_KEY={/* YOUR_API_KEY */}
 ```
 
 Feito isso, agora você pode utilizar o projeto.
